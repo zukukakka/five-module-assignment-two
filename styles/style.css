@@ -4,6 +4,9 @@
   margin: 0;
   font-family: 'Work Sans', sans-serif;
 }
+main section {
+  padding: 130px 200px;
+}
 
 /* Hero section Style */
 .hero-section {
@@ -46,3 +49,73 @@
 }
 
 /* About Section Style */
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  padding-bottom: 0;
+}
+
+.about-info {
+  margin: 80px 0 0 0;
+}
+
+.about-section .about-title {
+  max-width: 285px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-description {
+  max-width: 400px;
+  margin-top: 20px;
+  color: #444343;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-list {
+  margin-top: 15px;
+  color: #444343;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.list-item {
+  margin-top: 10px;
+}
+
+.list-item span {
+  margin-right: 10px;
+  color: green;
+}
+
+/* Plan style Section */
+.plan-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan-title {
+  text-align: center;
+  margin-bottom: 70px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plan-item {
+  text-align: center;
+}
+
+.plan-item h3,
+p {
+  margin-top: 10px;
+}
+
+/* Other Section Style */
