@@ -150,3 +150,71 @@ p {
 }
 
 /* Footer Style Section */
+.footer-section {
+  margin-top: 130px;
+  background-color: #151414;
+  padding: 130px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  margin-top: 0;
+}
+.footer-info h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-info p {
+  max-width: 485px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-info span {
+  margin-top: 15px;
+  display: block;
+  color: #fff;
+}
+
+.social-links {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-right-info {
+  margin-bottom: auto;
+}
+
+.footer-right-info h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-right-info input {
+  margin-top: 15px;
+  display: block;
+  max-width: 325px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #151414;
+  color: #f3f3f3;
+  font-size: 18px;
+}
+
+.footer-right-info button {
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+}
