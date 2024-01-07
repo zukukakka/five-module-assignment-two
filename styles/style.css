@@ -12,7 +12,7 @@ main section {
 
 /* Hero section Style */
 .hero-section {
-  min-height: 800px;
+  min-height: 100vh;
   background-image: url('../images/banner/banner2.png');
   background-size: 100% 100%;
   display: flex;
@@ -21,22 +21,22 @@ main section {
 }
 
 .hero-item {
-  text-align: end;
-  max-width: 450px;
-  margin: auto 130px;
+  text-align: right;
+  max-width: 500px;
+  margin: auto 200px;
 }
 
 .hero-item .hero-title {
   color: #151414;
   text-align: right;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 700;
 }
 
 .hero-description {
-  margin-top: 10px;
+  margin-top: 15px;
   color: #444343;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .hero-btn {
@@ -59,7 +59,26 @@ main section {
   gap: 70px;
 }
 
-.about-info {
+.about-img {
+  margin-top: 130px;
+}
+
+.about-circle {
+  position: absolute;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  background: rgba(241, 91, 34, 0.2);
+}
+
+.about-img > img {
+  position: relative;
+  max-height: 900px;
+  bottom: 174px;
+  right: 10px;
+}
+
+.about .about-info {
   margin: 80px 0 0 0;
 }
 
@@ -96,6 +115,9 @@ main section {
 }
 
 /* Plan style Section */
+.plan-section {
+  padding-top: 0;
+}
 .plan-items {
   display: flex;
   justify-content: space-around;
@@ -210,6 +232,7 @@ p {
 }
 
 .footer-right-info button {
+  border: none;
   margin-top: 10px;
   border-radius: 8px;
   background: #fff;
